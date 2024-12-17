@@ -4,6 +4,7 @@ from io import BytesIO
 from phi.assistant import Assistant
 from phi.document.reader.pdf import PDFReader
 from phi.llm.openai import OpenAIChat
+#from phi.llm.anthropic import Claude
 from phi.knowledge import AssistantKnowledge
 from phi.tools.duckduckgo import DuckDuckGo
 from phi.embedder.openai import OpenAIEmbedder
